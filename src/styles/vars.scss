@@ -1,0 +1,20 @@
+$Yellow: #FFD100;
+$Blue: #44BFEF;
+$Black: #2a2a2a;
+
+@font-face {
+    font-family: "Gotham";
+    src: url("../assets/fonts/GothamHTF-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("../assets/fonts/GothamHTF-Bold.otf") format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("../assets/fonts/GothamHTF-Black.otf") format("opentype");
+    font-weight: 700;
+}
