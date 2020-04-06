@@ -75,6 +75,30 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+
+
+    {/* Ticker */}
+    <div className="container">
+      <div className="row ticker">
+
+      </div>
+    </div>
+
+    {/* Google Map */}
+    <div className="google-map">
+
+    </div>
+
+    {/* Get In Tocuh */}
+    <div className="container">
+      <div className="text-holder">
+        <h1>Get In Touch</h1>
+        <p>Send us a message</p>
+        <div className="blue-btn">
+          <span>Email Us</span>
+        </div>
+      </div>
+    </div>  
   </Layout>
 )
 
