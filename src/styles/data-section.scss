@@ -1,0 +1,17 @@
+.data-section {
+    display: flex;
+    flex-direction: row;
+
+    .vanity-figures {
+        flex: 1;
+        margin-right: 15px;
+
+    }
+
+    .data-vis {
+        flex: 2;
+        margin-left: 15px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+}

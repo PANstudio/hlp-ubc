@@ -1,0 +1,21 @@
+.vanity-figure {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 15px;
+
+    h1{
+        margin: 0;
+        font-size: 3em;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.vanity-figure:last-of-type{
+    margin-bottom: 0;
+}

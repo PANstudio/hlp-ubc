@@ -1,6 +1,7 @@
 @import 'vars';
 @import 'header';
 @import 'above-fold';
+@import 'data-section';
 @import './components/components.scss';
 
 html, body {
@@ -19,6 +20,7 @@ html, body {
 
 .row {
     width: 100%;
+    margin: 150px 0;
 }
 
 .split-column {
@@ -32,4 +34,8 @@ html, body {
 
 p {
     line-height: 30px;
+}
+
+.light-bg{
+    background:#FFDD40;
 }
