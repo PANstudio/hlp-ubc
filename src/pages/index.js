@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import VanityFigure from "../components/VanityFigure"
+import Ticker from "../components/ticker/Ticker"
+import GoogleMap from "../components/GoogleMap"
 
 import UBCLogo from "../images/UBC_Logo.png"
 import ParkingMeter from "../images/parking-meter-image.png"
@@ -65,7 +67,7 @@ const IndexPage = () => (
 
     {/* Impact */}
     <div className="container">
-      <div className="row split-column">
+      <div className="row split-column project-impact">
         <div className="left-column">
           <h1>Impact of Responses</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -79,18 +81,14 @@ const IndexPage = () => (
 
     {/* Ticker */}
     <div className="container">
-      <div className="row ticker">
-
-      </div>
+      <Ticker/>
     </div>
 
     {/* Google Map */}
-    <div className="google-map">
-
-    </div>
+    <GoogleMap/>
 
     {/* Get In Tocuh */}
-    <div className="container">
+    <div className="container contact">
       <div className="text-holder">
         <h1>Get In Touch</h1>
         <p>Send us a message</p>

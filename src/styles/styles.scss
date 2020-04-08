@@ -3,6 +3,7 @@
 @import 'above-fold';
 @import 'data-section';
 @import './components/components.scss';
+@import 'contact';
 
 html, body {
     margin: 0;
@@ -11,6 +12,10 @@ html, body {
     font-family: "Gotham", sans-serif;
     background: $Yellow;
     color: $Black;
+}
+
+p {
+    line-height: 30px;
 }
 
 .container {
@@ -32,12 +37,14 @@ html, body {
     }
 
     img{
-        z-index: 500;
+        width: 100%;
     }
 }
 
-p {
-    line-height: 30px;
+//Project Impact
+
+.project-impact {
+    z-index: 1000;
 }
 
 .light-bg{

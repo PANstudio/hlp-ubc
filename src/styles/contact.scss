@@ -1,0 +1,17 @@
+.contact {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    font-size: 0.75em;
+    background: $Blue;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: right;
+
+    a{
+        color: #FFFFFF;
+    }
+}

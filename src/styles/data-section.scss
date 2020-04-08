@@ -1,6 +1,8 @@
 .data-section {
     display: flex;
     flex-direction: row;
+    z-index: -1;
+    padding-bottom: 50px;
 
     .vanity-figures {
         flex: 1;
@@ -16,12 +18,30 @@
     }
 }
 
+.light-bg{
+    background:#FFDD40;
+    position: relative;
+}
+
 .light-bg:before {
     content:'';
     background: url("../images/before-bg.png");
+    background-size: fill;
+    background-repeat: no-repeat;
     width: 100%;
     height: 200px;
     position: absolute;
     top:-198px;
 
+}
+
+.light-bg:after {
+    content:'';
+    background: url("../images/after-bg.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom:-198px;
 }

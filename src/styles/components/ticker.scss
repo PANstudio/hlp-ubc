@@ -1,0 +1,71 @@
+.ticker {
+
+    P{
+        font-weight: 600;
+    }
+
+    .ticker-holder {
+        height: 300px;
+        
+        .question-holder {
+            position: relative;
+        
+            .question {
+                background: #FFFFFF;
+                width: 60%;
+                border-radius: 5px;
+                margin-bottom: 15px;
+                
+                p {
+                    padding: 15px 30px;
+                    margin:0;
+                }
+        }
+        }
+        .answer-holder {
+            position:relative;
+        
+            .answer {
+                background: $Blue;
+                width: 60%;
+                border-radius: 5px;
+                position: absolute;
+                right:0;
+                color: #FFFFFF;
+
+                p {
+                    padding: 15px 30px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .ticker-controller {
+        text-align: center;
+        
+        .next-question {
+            width: 175px;
+            padding: 15px 0;
+            background: #FFFFFF;
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: inline-block;
+            font-family: "Gotham", sans-serif;
+            font-weight: 700;
+            margin-right: 15px;
+        }
+
+        .next-answer {
+            width: 175px;
+            padding: 15px 0;
+            background: $Blue;
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            color: #FFFFFF;
+            display: inline-block;
+            font-family: "Gotham", sans-serif;
+            font-weight: 700;
+        }
+    }
+}
