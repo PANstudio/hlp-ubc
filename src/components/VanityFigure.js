@@ -5,7 +5,7 @@ class VanityFigure extends Component {
         return (
             <div className="vanity-figure">
                 <div class="figure">
-                    <h1>1400</h1>
+                    <h1>{this.props.unit}</h1>
                 </div>
                 <div className="figure-type">
                     <h2>

@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import VanityFigure from "../components/VanityFigure"
+import GetFigures from "../components/vanity-figures/GetFigures"
 import Slider from "../components/slider/Slider"
 import Ticker from "../components/ticker/Ticker"
 import GoogleMap from "../components/GoogleMap"
@@ -44,7 +44,7 @@ const IndexPage = () => (
         <div className="right-column">
           <h1>What is Hello UBC</h1>
           <p>Have you ever spoken to a parking meter? Probably not (unless of course you were really angry).</p>
-          <p>However, previously silent objects are waking up and looking for someone to chat to! Across UBC’s Campus, parking meters, elevators and more in and around parkades and parking lots are coming to life and ready to have unique conversations with you! To join the conversation all you need is your mobile phone.</p>
+          <p>However, previously silent objects are waking up and looking for someone to chat to! Across UBC’s Campus, parking meters, elevators and more around campus are coming to life and ready to have unique conversations with you! To join the conversation all you need is your mobile phone.</p>
           <p>Conversations will take the form of interactive questions. Find out what each object has to say!</p>
         </div>
       </div>
@@ -55,12 +55,7 @@ const IndexPage = () => (
     <div className="light-bg">
       <div className="container">
         <div className="row data-section">
-            <div className="vanity-figures">
-              <VanityFigure figureType="Conversations"/>
-              <VanityFigure figureType="Interactions"/>
-              <VanityFigure figureType="Players"/>
-            </div>
-
+            <GetFigures/>
             <div className="data-vis">
               <Slider/>
             </div>
