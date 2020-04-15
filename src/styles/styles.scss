@@ -28,8 +28,11 @@ p {
     margin: 150px 0;
 }
 
+//2 columns
 .split-column {
     display: flex; 
+    position: relative;
+    z-index: 1000;
 
     > * {
         flex: 1;
@@ -39,15 +42,38 @@ p {
     img{
         width: 100%;
     }
+
+    .illustration {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-//Project Impact
-
-.project-impact {
-    z-index: 1000;
-}
-
+//light background section
 .light-bg{
     background:#FFDD40;
     position: relative;
+}
+
+
+//Mobile
+
+@media only screen and (max-width: 768px){
+ .split-column {
+     flex-direction: column;
+ }   
+
+ .data-section {
+     flex-direction: column;
+
+     .vanity-figures {
+         margin: 0;
+     }
+
+     .data-vis {
+         margin: 0;
+         margin-top: 15px;
+     }
+ }
 }

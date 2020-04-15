@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Hello Lamp Post`,
+    description: `Across UBC’s Campus, parking meters, elevators and more in and around parkades and parking lots are coming to life and ready to have unique conversations with you!`,
+    author: `Hello Lamp Post`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/fav-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

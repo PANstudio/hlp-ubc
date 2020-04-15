@@ -1,0 +1,14 @@
+.testimonial {
+   padding: 100px 0;
+   background: $Black;
+   color: #FFFFFF;
+
+   .quote {
+       text-align: center;
+
+       p {
+           font-style: italic;
+           margin-bottom: 30px;
+       }
+   }
+}

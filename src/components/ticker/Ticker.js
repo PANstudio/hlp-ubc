@@ -30,7 +30,7 @@ class Ticker extends Component {
       getData = () => {
 
         //INSERT JSON API
-        fetch("https://hello-lamp-post-api.herokuapp.com/questions/random?location_id=10&locale=en")
+        fetch("https://hello-lamp-post-api.herokuapp.com/questions/random?location_id=58&locale=en")
         .then(res => res.json())
         .then(
             (result)=>{
