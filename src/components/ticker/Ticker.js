@@ -89,7 +89,8 @@ class Ticker extends Component {
             return <div>Loading...</div>;
         }else{
             return (
-                <div className=" row ticker">
+                <div className="row ticker">
+                    <h1>What people are saying</h1>
                     <div className="ticker-holder">
                         <Question question={question}/>
                         <Answer answer={answer}/>
