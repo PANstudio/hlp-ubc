@@ -5,9 +5,9 @@ class GoogleMap extends Component {
     state ={
         visible: false,
         viewport: {
-            latitude:51.528308,
-            longitude:-0.3817765,
-            zoom: 2
+            latitude:49.2624379,
+            longitude:-123.2488843,
+            zoom: 15
         }
     }
 

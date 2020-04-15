@@ -26,20 +26,19 @@
 .light-bg:before {
     content:'';
     background: url("../images/before-bg.png");
-    background-size: fill;
-    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 250px;
     position: absolute;
-    top:-198px;
-
+    top: -247px;
 }
+
+
 
 .light-bg:after {
     content:'';
     background: url("../images/after-bg.png");
-    background-size: fill;
-    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 200px;
     position: absolute;

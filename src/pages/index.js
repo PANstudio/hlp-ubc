@@ -117,7 +117,7 @@ const IndexPage = () => (
     <div className="container contact">
       <div className="text-holder">
         <h1>Get In Touch</h1>
-        <p>Send us a message</p>
+        <p>We are always happy to hear from you whether you’re looking for more info or to collaborate with us. Don't hesitate to drop us a message!</p>
         <div className="blue-btn">
           <span>Email Us</span>
         </div>
