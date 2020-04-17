@@ -103,7 +103,7 @@ const IndexPage = () => (
       {/* <h2>Quote from UBC</h2> */}
       <div class="quote">
         <p>“By turning everyday objects into beacons for conversation, we’ve shown that we can engage the campus through specific and personal interactions. The real-time data we’ve received has given us insight into the pain points and wants of our commuters, allowing us to make informed strategic decisions.”</p>
-        <h3>University Community Services | Parking and Access Services</h3>
+        <h3>Parking and Access Services</h3>
       </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
     {/* Get In Tocuh */}
     <div className="container contact">
       <div className="text-holder">
-        <h1>Get In Touch</h1>
+        <h1>Additional Commentary / Feedback</h1>
         <p>We are always happy to hear from you whether you’re looking for more info or to collaborate with us. Don't hesitate to drop us a message!</p>
         <div className="blue-btn">
           <span>Email Us</span>
