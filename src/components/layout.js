@@ -30,7 +30,9 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Made by 
           {` `}
-          <a href="https://www.hlp.city">Hello Lamp Post</a>
+        <p>
+        <a href="https://www.hlp.city" target="_blank">Hello Lamp Post</a>  | <a href="http://www.hlp.city/privacystatement" target="_blank">Privacy Policy</a>
+        </p>
         </footer>
     </>
   )

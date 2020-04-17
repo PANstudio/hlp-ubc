@@ -6,6 +6,25 @@
     box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.15);
     position: relative;
 
+    .map-marker{
+        width:15px;
+        height: 15px;
+        background:$Blue;
+        border-radius: 100px;
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    }
+    .pop-up{
+        width: 200px;
+        background: $Yellow;
+        padding: 15px;
+        border-radius: 5px;
+        display: none;
+        
+        h3{
+            font-size: 1em;
+        }
+    }
+
     .map-controls {
         position: absolute;
         right: 15px;
