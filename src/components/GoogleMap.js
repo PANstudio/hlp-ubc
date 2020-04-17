@@ -8,7 +8,7 @@ class GoogleMap extends Component {
         viewport: {
             latitude:49.2624379,
             longitude:-123.2488843,
-            zoom: 15
+            zoom: 13
         }
     }
 
