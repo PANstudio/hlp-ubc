@@ -55,7 +55,10 @@ const IndexPage = () => (
     <div className="light-bg">
       <div className="container">
         <div className="row data-section">
+
+
             <GetFigures/>
+
             <div className="data-vis">
               <Slider/>
             </div>

@@ -61,6 +61,9 @@ class GetFigures extends Component {
         }else{
             return (
                 <div className="vanity-figures">
+
+                    <h2>Updated in real-time</h2>
+
                     <VanityFigure unit={conversations} figureType="Conversations"/>
                     <VanityFigure unit={interactions} figureType="Interactions"/>
                     <VanityFigure unit={players} figureType="Players"/>
